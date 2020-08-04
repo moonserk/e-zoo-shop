@@ -1,0 +1,19 @@
+.product-screen-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__image {
+        img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 50px;
+        }
+    }
+    & .card__description {
+        padding: 10px;
+        align-self: stretch;
+        margin-bottom: auto;
+    }
+}
+
