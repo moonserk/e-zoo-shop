@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavBar.scss'
-// import panda from '../panda.png'
-import zoo from '../zoo_greg.png'
-// import puppy from '../puppy.png'
+import zoo from '../../assets/zoo.png'
 function NavBar(props){
     return (
         <div className="navbar-component">
